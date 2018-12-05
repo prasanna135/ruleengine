@@ -1,7 +1,6 @@
 import sys
 
 from input_validation import ValidateInput
-#from ValidateInput import validate_more, validate_less, validate_equal, validate_between
 
 class ValidateRule(object):
 	def __init__(self, rules_dict):
@@ -69,4 +68,3 @@ class ValidateRule(object):
 			else:
 				self.rule_book[signal] = [rule_dict]
 
-		print self.rule_book

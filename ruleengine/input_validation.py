@@ -178,7 +178,6 @@ class ValidateDateInput(ValidateInput):
 				try:
 					date = datetime.strptime(args[0][0], "%Y-%m-%d %H:%M:%S")
 				except ValueError as e:
-					#print (str(e))
 					return
 				if date_value == date:
 					return self.signal
@@ -191,7 +190,6 @@ class ValidateDateInput(ValidateInput):
 			lower_bound = datetime.strptime(args[0][0], "%Y-%m-%d %H:%M:%S")
 			upper_bound = datetime.strptime(args[0][0], "%Y-%m-%d %H:%M:%S")
 		except ValueError as e:
-			#print str(e)
 			return
 		negation = args[1]
 		if negation:
