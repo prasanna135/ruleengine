@@ -1,0 +1,25 @@
+rule1:
+  signal: ATL6
+  operation: between
+  lower_bound: 60
+  upper_bound: 240
+
+rule2:
+  signal: ATL2
+  operation: never
+  equal_to: LOW
+
+rule3:
+  signal: ATL3
+  operation: not
+  equal_to: future
+
+rule1:
+  signal: ATL2
+  operation: rise
+  lower_bound: 2017-05-13 00:00:00
+
+rule4:
+  signal: ATL9
+  operation: less than
+  upper_bound: 2017-06-13 21:40:10

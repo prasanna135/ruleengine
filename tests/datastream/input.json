@@ -1,0 +1,10 @@
+[{"signal": "ATL2", "value_type": "String", "value": "HIGH"}, 
+	{"signal": "ATL9", "value_type": "Datetime", "value": "2016-06-13 22:40:10"}, 
+	{"signal": "ATL3", "value_type": "String", "value": "LOW"}, 
+	{"signal": "ATL8", "value_type": "String", "value": "LOW"},
+	{"signal": "ATL1", "value_type": "String", "value": "HIGH"}, 
+	{"signal": "ATL1", "value_type": "Datetime", "value": "2017-04-10 10:16:55"}, 
+	{"signal": "ATL6", "value_type": "Integer", "value": "75.361"}, 
+	{"signal": "ATL3", "value_type": "Datetime", "value": "2017-04-21 07:55:28"}, 
+	{"signal": "ATL2", "value_type": "Datetime", "value": "2017-05-13 06:22:35"}, 
+	{"signal": "ATL10", "value_type": "String", "value": "LOW"}]
